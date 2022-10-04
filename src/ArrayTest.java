@@ -11,5 +11,7 @@ public class ArrayTest {
             intNum[i] = i+1;
             System.out.println(intNum[i]);
         }
+
+
     }
 }
