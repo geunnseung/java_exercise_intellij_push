@@ -3,9 +3,8 @@ import java.util.Scanner;
 public class MoneyCount2 {
     public static void main(String[] args) {
 
-        System.out.println("금액을 입력하세요 : ");
-        Scanner sc = new Scanner(System.in);
-        int moneyInput = sc.nextInt();
+
+        int moneyInput = 25800;
 
         int curr1 = 50000;
         int curr2 = 10000;
