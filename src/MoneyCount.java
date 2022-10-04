@@ -13,7 +13,7 @@ public class MoneyCount {
 
 
 
-        for(int i=0 ; i<8; i++){
+        for(int i=0 ; i<moneyResult.length; i++){
 
             moneyResult[i] = moneyInput / moneyCount[i];
             moneyInput = moneyInput % moneyCount[i];
