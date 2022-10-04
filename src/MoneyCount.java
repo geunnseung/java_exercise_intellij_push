@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MoneyCount {
     public static void main(String[] args) {
 
-        int result;
+
         int[] moneyCount = {50000, 10000, 5000, 1000, 500, 100, 10 , 1};
         int[] moneyResult = new int[8];
 
@@ -18,7 +18,7 @@ public class MoneyCount {
             moneyResult[i] = moneyInput / moneyCount[i];
             moneyInput = moneyInput % moneyCount[i];
             //System.out.println(moneyCount[i]+ "원:" + moneyResult[i]+"개");
-            System.out.printf("%d원 : %d개\n", moneyCount[i], moneyResult[i]);
+            System.out.printf("%d원 : %d개 나머지 : %d\n", moneyCount[i], moneyResult[i], moneyInput);
 
 
 
