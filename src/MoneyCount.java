@@ -17,7 +17,7 @@ public class MoneyCount {
 
             moneyResult[i] = moneyInput / moneyCount[i];
             moneyInput = moneyInput % moneyCount[i];
-            System.out.println(moneyCount[i]+ "권:" + moneyResult[i]+"개");
+            System.out.println(moneyCount[i]+ "원:" + moneyResult[i]+"개");
 
 
 
